@@ -23,10 +23,21 @@
             <button onclick='handleSearch()' class="btn">Search</button>
         </section>
 
+        <!-- loader -->
+        <section id="leading-spinner" class="text-center hidden">
+            <span class="loading loading-bars loading-md"></span>
+            <span class="loading loading-bars loading-lg"></span>
+        </section>
+
         <!-- search result -->
         <section>
             <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
+            </div>
+
+            <!-- show all button -->
+            <div id="show-all-container" class="hidden text-center pt-5">
+                <button class="btn btn-active btn-ghost">Show all</button>
             </div>
         </section>
     </main>
